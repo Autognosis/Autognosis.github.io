@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Google on Autognosis 的博客</title><link>https://githubwzb.github.io/tags/google/</link><description>Recent content in Google on Autognosis 的博客</description><generator>Hugo</generator><language>cn-zh</language><copyright>Autognosis © Copyright notice</copyright><lastBuildDate>Sun, 08 Feb 2026 10:24:28 +0800</lastBuildDate><atom:link href="https://githubwzb.github.io/tags/google/index.xml" rel="self" type="application/rss+xml"/><item><title>大陆使用antigravity避坑指南</title><link>https://githubwzb.github.io/2026/02/%E5%A4%A7%E9%99%86%E4%BD%BF%E7%94%A8antigravity%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97/</link><pubDate>Sun, 08 Feb 2026 10:24:28 +0800</pubDate><guid>https://githubwzb.github.io/2026/02/%E5%A4%A7%E9%99%86%E4%BD%BF%E7%94%A8antigravity%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97/</guid><description>&lt;h1 id="大陆使用antigravity避坑指南"&gt;大陆使用antigravity避坑指南&lt;/h1&gt;
+&lt;h2 id="前言"&gt;前言&lt;/h2&gt;
+&lt;p&gt;Antigravity是一款由Google开发的AI编程工具，它能够帮助开发者更高效地编写代码。然而，由于网络限制，大陆用户在使用Antigravity时可能会遇到一些问题。本文将介绍如何在大陆使用Antigravity，并提供一些避坑指南。&lt;/p&gt;
+&lt;h2 id="科学上网"&gt;科学上网&lt;/h2&gt;
+&lt;p&gt;网传很多观点说 Antigravity 对魔法的质量要求很高，但其实只要能 ai.google.com 没有弹出拒绝服务，那么梯子质量就是合格的。什么 ipinfo.io 的IP安全度报告都是虚的，谷歌并没有使用这些公开的 IP 健康度报告，而是用的自己的风控系统。所以不要被那些报告吓到，只要能正常访问 aistudio.google.com 即可。&lt;/p&gt;
+&lt;h2 id="tun-模式"&gt;Tun 模式&lt;/h2&gt;
+&lt;p&gt;Clash 的常规代理模式只是代理了常规的 HTTP 和 HTTPS 流量，对于其他类型的流量，如 UDP 流量，是无法代理的。Tun 模式会启用一个虚拟网卡，所有流量都会通过这个虚拟网卡。因此它可以代理所有类型的流量。&lt;/p&gt;
+&lt;p&gt;Antigravity 需要代理 UDP 流量，常规的代理模式就无法满足要求，需要使用 Tun 模式才能正常使用。&lt;/p&gt;
+&lt;h2 id="谷歌账号"&gt;谷歌账号&lt;/h2&gt;
+&lt;p&gt;即使解决了网络问题，没有一个“干净”的谷歌账号，也是无法正常使用 Antigravity 的。常见的由谷歌账号引起的情况如兄：&lt;/p&gt;
+&lt;h3 id="not-eligible"&gt;Not Eligible&lt;/h3&gt;
+&lt;p&gt;这一报错可能的原因如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;账号年龄不对。 谷歌账号的年龄限制在18岁以上，否则无法使用。这个可以通过修改生日来解决。&lt;/li&gt;
+&lt;li&gt;账号注册时间太短。尽量使用注册时间较久的谷歌账号。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="地区限制region-restricted"&gt;地区限制（Region Restricted）&lt;/h3&gt;
+&lt;p&gt;Gemini 对部分地区有限制。如果出现这个报错，说明你的谷歌账号地区不符合要求，需要修改。&lt;/p&gt;
+&lt;h4 id="高概率可用地区和高概率不可用地区"&gt;高概率可用地区和高概率不可用地区&lt;/h4&gt;
+&lt;p&gt;高概率可用地区：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;美国（United States）&lt;/li&gt;
+&lt;li&gt;日本（Japan）&lt;/li&gt;
+&lt;li&gt;加拿大（Canada）&lt;/li&gt;
+&lt;li&gt;英国（United Kingdom）&lt;/li&gt;
+&lt;li&gt;德国（Germany）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;有概率不可用地区：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;中国台湾（Taiwan）&lt;/li&gt;
+&lt;li&gt;新加坡（Singapore）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;绝对不可用的地区：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;中国大陆（China）&lt;/li&gt;
+&lt;li&gt;中国香港（Hong Kong）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="如何检查谷歌账号地区并修改地区"&gt;如何检查谷歌账号地区并修改地区&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;访问&lt;a href="https://policies.google.com/terms?hl=zh-CN&amp;amp;fg=1"&gt;谷歌服务条款&lt;/a&gt;。它会显示当前账号使用的条款的地区版本。如下图所示：
+
+ &lt;img src="google-terms.png" alt="alt text"&gt;
+
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果地区不符合要求，可以尝试修改。&lt;/p&gt;
+&lt;p&gt;a. 切换梯子到美国，确保这个梯子能正常访问aistudio.google.com&lt;/p&gt;
+&lt;p&gt;b. 访问&lt;a href="https://policies.google.com/country-association-form?hl=zh-CN&amp;amp;fg=1"&gt;更改关联地区请求&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>
