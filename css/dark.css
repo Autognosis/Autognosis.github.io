@@ -1,90 +1,46 @@
-html.dark body {
-  color: #ddd;
-  background-color: #000;
+html.dark {
+  /* Dark Mode Palette Overrides */
+  --bg-color: #0f172a;
+  /* Slate 900 */
+  --text-color: #cbd5e1;
+  /* Slate 300 */
+  --heading-color: #f1f5f9;
+  /* Slate 100 */
+  --accent-color: #818cf8;
+  /* Indigo 400 */
+  --accent-hover: #a5b4fc;
+  /* Indigo 300 */
+  --secondary-color: #94a3b8;
+  /* Slate 400 */
+  --border-color: #334155;
+  /* Slate 700 */
+  --code-bg: #1e293b;
+  /* Slate 800 */
+  --quote-bg: #1e293b;
+  --quote-border: #818cf8;
 }
 
-html.dark ::-moz-selection {
-  background: #9375fd;
-  color: #fff;
-  text-shadow: none
+/* Ensure images are slightly dimmed in dark mode to reduce glare */
+html.dark img {
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
 }
 
-html.dark ::selection {
-  background: #9375fd;
-  color: #fff;
-  text-shadow: none
+html.dark img:hover {
+  opacity: 1;
 }
 
-html.dark hr {
-  border-color: #333;
-}
-
-html.dark blockquote {
-  border-color: #ddd;
-}
-
-html.dark h1,
-html.dark h2,
-html.dark h3,
-html.dark h4,
-html.dark h5,
-html.dark h6 {
-  color: #ddd;
-}
-
-html.dark a, html.dark a:hover {
-  color: #9375fd;
-  text-decoration: none;
-}
-
-html.dark table tbody tr:nth-of-type(even) {
-  background-color: rgba(255, 255, 255, 0.15);
-}
-
-html.dark .site-description a,
-html.dark .site-description a:hover {
-  color: #ddd;
-  text-decoration: underline;
-}
-
-html.dark a:hover {
-  opacity: 0.8;
-}
-
-html.dark .post-tags .tags a {
-  border: 1px solid #ddd;
-  color: #ddd;
-}
-
-html.dark .site-title a {
-  color: #ddd;
-  text-decoration: none !important;
-}
-
-html.dark .header nav,
-html.dark .footer {
-  border-color: #333;
-}
-
+/* Syntax Highlighting Adjustments for Dark Mode */
 html.dark .highlight {
-  background-color: #333;
+  background-color: #1e293b;
+  /* Match code block bg */
+  box-shadow: none;
+  border: 1px solid var(--border-color);
 }
 
+/* Toggle Icon */
 html.dark .header .site-description .scheme-toggle a svg {
-    fill: #f8e04f !important;
-    color: #f8e04f !important;
-}
-
-/* html.dark td pre code {
-  color: #333;
-} */
-
-html.dark code:not(pre *)  {
-  color: #ddd;
-  background-color: #333;
-}
-
-html.dark .section-nav li.active > a {
-  font-weight: 600;
-  color: #ddd;
+  fill: var(--warning-color, #fcd34d) !important;
+  /* Yellow for sun/moon */
+  color: var(--warning-color, #fcd34d) !important;
 }
