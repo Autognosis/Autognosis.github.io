@@ -1,4 +1,4 @@
-@import url("https://cdn.jsdelivr.net/gh/mshaugh/nerdfont-webfonts@v3.3.0/build/firacode-nerd-font.css");
+@import url("https://cdn.jsdelivr.net/gh/mshaugh/nerdfont-webfonts@v3.3.0/build/firacode-nerd-font-mono.css");
 
 :root {
     /* Color Palette */
@@ -18,6 +18,10 @@
     --font-heading: "Outfit", sans-serif;
     --font-body: "Inter", sans-serif;
     --font-mono: "FiraCode Nerd Font Mono", "Fira Code", monospace;
+
+    /* Table Headers */
+    --table-header-bg: #111827;
+    --table-header-text: #ffffff;
 }
 
 body {
@@ -118,8 +122,8 @@ table td {
 }
 
 table th {
-    background-color: var(--heading-color);
-    color: #fff;
+    background-color: var(--table-header-bg);
+    color: var(--table-header-text);
     font-weight: 600;
     text-align: left;
 }

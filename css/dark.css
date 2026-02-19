@@ -18,6 +18,10 @@ html.dark {
   /* Slate 800 */
   --quote-bg: #1e293b;
   --quote-border: #818cf8;
+
+  /* Table Headers */
+  --table-header-bg: #1e293b;
+  --table-header-text: #f1f5f9;
 }
 
 /* Ensure images are slightly dimmed in dark mode to reduce glare */
