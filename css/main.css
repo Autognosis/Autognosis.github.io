@@ -263,6 +263,30 @@ ul.flat li {
     font-size: 0.95rem;
     line-height: 1.5;
     overflow-x: auto;
+    white-space: pre-wrap;
+    /* Enables word wrapping */
+    word-wrap: break-word;
+    /* For older browsers */
+    overflow-wrap: break-word;
+    /* Standard property */
+}
+
+/* Inline Line Numbers Styling (VS Code style) */
+.highlight code>span {
+    display: flex;
+    /* Ensure flex layout is respected if inline style missing */
+}
+
+.highlight code>span>span:first-child {
+    user-select: none;
+    margin-right: 1em !important;
+    padding-right: 0.5em;
+    width: 2.5em;
+    display: inline-block;
+    text-align: right;
+    color: var(--secondary-color);
+    flex-shrink: 0;
+    border-right: 1px solid var(--border-color);
 }
 
 .highlight {
