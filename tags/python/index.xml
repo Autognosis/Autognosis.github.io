@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on Autognosis 的博客</title><link>https://autognosis.github.io/tags/python/</link><description>Recent content in Python on Autognosis 的博客</description><generator>Hugo</generator><language>cn-zh</language><copyright>Autognosis © Copyright notice</copyright><lastBuildDate>Mon, 09 Feb 2026 21:48:28 +0800</lastBuildDate><atom:link href="https://autognosis.github.io/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Python sorted() 函数与 sort() 方法</title><link>https://autognosis.github.io/2024/07/python-sorted-%E5%87%BD%E6%95%B0%E4%B8%8E-sort-%E6%96%B9%E6%B3%95/</link><pubDate>Sun, 07 Jul 2024 00:47:57 +0800</pubDate><guid>https://autognosis.github.io/2024/07/python-sorted-%E5%87%BD%E6%95%B0%E4%B8%8E-sort-%E6%96%B9%E6%B3%95/</guid><description>&lt;h1 id="sorted函数"&gt;sorted函数&lt;/h1&gt;
-&lt;h2 id="1-语法"&gt;1. 语法&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on Autognosis 的博客</title><link>https://autognosis.github.io/tags/python/</link><description>Recent content in Python on Autognosis 的博客</description><generator>Hugo</generator><language>cn-zh</language><copyright>Autognosis © Copyright notice</copyright><lastBuildDate>Thu, 19 Feb 2026 15:21:37 +0800</lastBuildDate><atom:link href="https://autognosis.github.io/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Python sorted() 函数与 sort() 方法</title><link>https://autognosis.github.io/2024/07/python-sorted-%E5%87%BD%E6%95%B0%E4%B8%8E-sort-%E6%96%B9%E6%B3%95/</link><pubDate>Sun, 07 Jul 2024 00:47:57 +0800</pubDate><guid>https://autognosis.github.io/2024/07/python-sorted-%E5%87%BD%E6%95%B0%E4%B8%8E-sort-%E6%96%B9%E6%B3%95/</guid><description>&lt;h1 id="sorted函数"&gt;sorted函数&lt;/h1&gt;
+&lt;h2 id="语法"&gt;语法&lt;/h2&gt;
 &lt;p&gt;sorted 语法：&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div style="color:#e2e4e5;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
@@ -23,7 +23,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#5af78e"&gt;&amp;#34;&amp;#34;&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id="2-用例"&gt;2. 用例&lt;/h2&gt;
+&lt;/div&gt;&lt;h2 id="用例"&gt;用例&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;div style="color:#e2e4e5;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
 &lt;pre tabindex="0" style="color:#e2e4e5;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1
@@ -74,11 +74,11 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ff6ac1"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id="3-和-sort-函数对比"&gt;3. 和 &lt;code&gt;sort&lt;/code&gt; 函数对比&lt;/h2&gt;
+&lt;/div&gt;&lt;h2 id="和-sort-函数对比"&gt;和 &lt;code&gt;sort&lt;/code&gt; 函数对比&lt;/h2&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;
- &lt;th&gt;&lt;/th&gt;
+ &lt;th&gt;属性&lt;/th&gt;
  &lt;th&gt;sort&lt;/th&gt;
  &lt;th&gt;sorted&lt;/th&gt;
  &lt;/tr&gt;
@@ -106,7 +106,7 @@
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id="31-总结"&gt;3.1. 总结&lt;/h3&gt;
+&lt;h2 id="总结"&gt;总结&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;当且仅当，需要对列表本身进行排序时，使用 &lt;code&gt;sort&lt;/code&gt; 方法。&lt;/li&gt;
 &lt;li&gt;如果需要对从可迭代对象生成一个有序的列表对象时，使用 &lt;code&gt;sorted&lt;/code&gt; 函数&lt;/li&gt;
