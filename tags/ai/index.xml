@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI on Autognosis 的博客</title><link>https://autognosis.github.io/tags/ai/</link><description>Recent content in AI on Autognosis 的博客</description><generator>Hugo</generator><language>cn-zh</language><copyright>Autognosis © Copyright notice</copyright><lastBuildDate>Sun, 08 Feb 2026 10:24:28 +0800</lastBuildDate><atom:link href="https://autognosis.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>大陆使用antigravity避坑指南</title><link>https://autognosis.github.io/2026/02/%E5%A4%A7%E9%99%86%E4%BD%BF%E7%94%A8antigravity%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97/</link><pubDate>Sun, 08 Feb 2026 10:24:28 +0800</pubDate><guid>https://autognosis.github.io/2026/02/%E5%A4%A7%E9%99%86%E4%BD%BF%E7%94%A8antigravity%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97/</guid><description>&lt;h1 id="大陆使用antigravity避坑指南"&gt;大陆使用antigravity避坑指南&lt;/h1&gt;
-&lt;h2 id="前言"&gt;前言&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI on Autognosis 的博客</title><link>https://autognosis.github.io/tags/ai/</link><description>Recent content in AI on Autognosis 的博客</description><generator>Hugo</generator><language>cn-zh</language><copyright>Autognosis © Copyright notice</copyright><lastBuildDate>Sun, 08 Feb 2026 10:24:28 +0800</lastBuildDate><atom:link href="https://autognosis.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>大陆使用antigravity避坑指南</title><link>https://autognosis.github.io/2026/02/%E5%A4%A7%E9%99%86%E4%BD%BF%E7%94%A8antigravity%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97/</link><pubDate>Sun, 08 Feb 2026 10:24:28 +0800</pubDate><guid>https://autognosis.github.io/2026/02/%E5%A4%A7%E9%99%86%E4%BD%BF%E7%94%A8antigravity%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97/</guid><description>&lt;h2 id="前言"&gt;前言&lt;/h2&gt;
 &lt;p&gt;Antigravity是一款由Google开发的AI编程工具，它能够帮助开发者更高效地编写代码。然而，由于网络限制，大陆用户在使用Antigravity时可能会遇到一些问题。本文将介绍如何在大陆使用Antigravity，并提供一些避坑指南。&lt;/p&gt;
 &lt;h2 id="科学上网"&gt;科学上网&lt;/h2&gt;
 &lt;p&gt;网传很多观点说 Antigravity 对魔法的质量要求很高，但其实只要能 ai.google.com 没有弹出拒绝服务，那么梯子质量就是合格的。什么 ipinfo.io 的IP安全度报告都是虚的，谷歌并没有使用这些公开的 IP 健康度报告，而是用的自己的风控系统。所以不要被那些报告吓到，只要能正常访问 aistudio.google.com 即可。&lt;/p&gt;
@@ -47,4 +46,9 @@
 &lt;li&gt;
 &lt;p&gt;如果地区不符合要求，可以尝试修改。&lt;/p&gt;
 &lt;p&gt;a. 切换梯子到美国，确保这个梯子能正常访问aistudio.google.com&lt;/p&gt;
-&lt;p&gt;b. 访问&lt;a href="https://policies.google.com/country-association-form?hl=zh-CN&amp;amp;fg=1"&gt;更改关联地区请求&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;b. 访问&lt;a href="https://policies.google.com/country-association-form?hl=zh-CN&amp;amp;fg=1"&gt;更改关联地区请求&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;更改如下
+
+ &lt;img src="change-google-location.png" alt="alt text"&gt;
+
+&lt;/p&gt;</description></item></channel></rss>
